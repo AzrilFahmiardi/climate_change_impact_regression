@@ -1,0 +1,49 @@
+About Dataset
+Climate change has a profound impact on global agriculture, affecting crop yields, soil health, and farming sustainability. This synthetic dataset is designed to simulate real-world agricultural data, enabling researchers, data scientists, and policymakers to explore how climate variations influence food production across different regions.
+
+🔍 Key Features:
+✔️ Climate Variables – Simulated data on temperature changes, precipitation levels, and extreme weather events
+✔️ Crop Productivity – Modeled impact of climate shifts on yields of key crops like wheat, rice, and corn
+✔️ Regional Insights – Includes various geographic regions to analyze diverse climate-agriculture interactions
+✔️ Ideal for Predictive Modeling – Supports climate risk assessment, food security studies, and sustainability research
+
+📊 Dataset Overview:
+This dataset has been synthetically generated and does not contain real-world agricultural records. It is intended for academic learning, climate impact analysis, and machine learning applications in environmental studies.
+
+📖 Columns Description:
+Region – Simulated geographic region
+Year – Modeled year of data collection
+Average_Temperature – Simulated temperature levels (°C)
+Precipitation – Modeled annual rainfall (mm)
+Crop_Yield – Synthetic yield data for selected crops (tons/hectare)
+Extreme_Weather_Events – Number of modeled extreme weather occurrences per year
+⚠️ Disclaimer:
+This dataset is completely synthetic and should not be used for real-world climate policy decisions or agricultural forecasting. It is meant for educational purposes, research, and data science applications.
+
+🔹 Use this dataset to analyze climate trends, build predictive models, and explore solutions for sustainable agriculture! 🌱📊
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 15 columns):
+ #   Column                       Non-Null Count  Dtype  
+---  ------                       --------------  -----  
+ 0   Year                         10000 non-null  int64  
+ 1   Country                      10000 non-null  object 
+ 2   Region                       10000 non-null  object 
+ 3   Crop_Type                    10000 non-null  object 
+ 4   Average_Temperature_C        10000 non-null  float64
+ 5   Total_Precipitation_mm       10000 non-null  float64
+ 6   CO2_Emissions_MT             10000 non-null  float64
+ 7   Crop_Yield_MT_per_HA         10000 non-null  float64
+ 8   Extreme_Weather_Events       10000 non-null  int64  
+ 9   Irrigation_Access_%          10000 non-null  float64
+ 10  Pesticide_Use_KG_per_HA      10000 non-null  float64
+ 11  Fertilizer_Use_KG_per_HA     10000 non-null  float64
+ 12  Soil_Health_Index            10000 non-null  float64
+ 13  Adaptation_Strategies        10000 non-null  object 
+ 14  Economic_Impact_Million_USD  10000 non-null  float64
+dtypes: float64(9), int64(2), object(4)
+memory usage: 1.1+ MB
+
+
+TARGET = Economic_Impact_Million_USD
